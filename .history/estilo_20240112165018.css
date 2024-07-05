@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body{
+    font-family:arial;
+    background-color:#FFFFFF;
+    color:#583f7e;
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+/* BARRA SUPERIOR */
+div#azul{
+    background-color:#0f5453;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size:small;
+    font-weight: 800;
+    padding:1.2em;
+}
+div#azul:hover{
+    background-color:#146c6b;
+}
+
+a.linkazul{
+    background-color:#0f5453;
+    text-align: center;
+    font-size:small;
+    font-weight: 800;
+    color:white;
+    padding:1.2em; 
+}
+a:hover.linkazul{
+    background-color:#146c6b;
+    width: 100%;
+    text-align: center;
+    font-size:small;
+    font-weight: 800;
+    color:white;
+    padding:1.2em; 
+    padding-left: 5em;
+    padding-right: 5em;
+}
+div#azul:hover{
+    background-color:#146c6b;
+}
+/* MENU COMPUESTO */
+div.menu{
+    width: 100%;
+    display: flex;
+}
+div#menucentrado{
+    text-align: center;
+    word-spacing:0.5em; 
+    color:#583f7e;
+    padding:1em;
+   
+}
+span#menugrueso{
+    font-size: large;
+    width: 70%;
+    display: flex;
+}
+span#compuesta{
+    word-spacing:normal;
+}
+span#menuderecho{
+    width: 30%;
+    display: flex;
+    padding-left: 20em;
+    word-spacing:0.5em;
+}
+a:hover.hovergris{
+    background-color: #f95353;
+    padding-top:1.2em;
+    padding-bottom: 1em;
+
+}
+/* CONTENIDO CENTRAL */
+#malva{
+    font-family:arial;
+    background-color:darkcyan;
+    color:white;
+    padding-bottom:2em;
+    padding-top:2em;
+    padding-left:5em;
+    padding-right: 5em;
+}
+
+.centradoB{
+    
+    font-size:7em ;
+    text-align: center;
+    margin: auto;
+    width: 70px;
+    border: 0.8px solid white;
+    border-radius: 20px;
+    padding: 0.1em;
+}
+.centrado{
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 0.7em;
+}
+#grande{
+    font-size: 1.8em;
+}
+a{    
+    background-color:white;
+    color:#583f7e;
+    text-decoration: none;
+}
+a#boton{
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border: 0.8px solid white;
+    border-radius: 5px;
+    padding: 0.6em;    
+    background-color:#583f7e;
+    color:white;
+}
+a#boton:hover{
+    background-color:white;
+    color:#583f7e;
+}
+#malvaclaro{
+    color:#9783b9;
+    font-size: 0.9em;
+}
+.malvaclaro{
+    color:#9783b9;
+}
+.centradoimagen{
+    font-size:0.9em;
+    width: 19em;
+    border: 0.8px solid white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1.5em;
+   
+    
+}
+.imagen{
+    margin:0em 1em 1em 0em;
+    float:left;
+}
+.pie{
+    font-size:0.9em;
+    background-color:#2a2730;
+    color:#99979c;
+    padding:2em 10em }
+.blanco{color:#FFFFFF;}

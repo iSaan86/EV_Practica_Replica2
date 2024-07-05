@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, formulario, practica">
+    <meta name="description" content="Evaluacion práctica css">
+    <meta name="author" content="Alexandra Ferrera Arenas">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Evaluación práctica CSS</title>
+    <!-- Enlace a estilo.css -->
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--Esta capa pertenece a la barra azul superior que tiene un enlace-->
+    <header id="azul">
+        <a class="linkazul" href="index.html" tittle="A inicio">
+            Bootstrap 4 is here!
+        </a>
+    </header>
+    <!-- Este es el menú navegador con enlaces -->
+    <nav class="menu">
+        <div id="menucentrado">
+            <!-- Menu izquierdo con 3 opciones -->
+            <div id="menugrueso">
+                <a class="hovergris" href="#" tittle="A HTML 5"><span id="compuesta">HTML5&nbsp;&nbsp;</span></a>
+                <a class="hovergris" href="#" tittle="A CSS">&nbsp;CSS&nbsp;</a>
+                <a class="hovergris" href="#" tittle="A javascript 6">&nbsp;JavaScript6&nbsp;</a>
+            </div>   
+            <!-- Menú derecho con 3 opciones -->
+            <div id="menuderecho">
+                <a class="hovergris" href="#" tittle="A cuestionarios">&nbsp;Cuestionarios&nbsp;</a>
+                <a class="hovergris" href="#" tittle="A examenes">&nbsp;Examenes&nbsp;</a>
+                <a class="hovergris" href="#" tittle="A Prácticas">&nbsp;Prácticas&nbsp;</a>
+            </div>
+        </div>
+    </nav>
+    <!-- La seccion general de la web -->
+    <div id="malva">
+        <!-- La capa con la imagen Adobe -->
+        <span class="menu">
+            <img class="centradoB" src="IMAGENES/imagen_adobe.png" alt="imagen Adobe">
+        </span>
+        <!-- Texto central -->
+        <p class="centrado" id="grande">
+        Bootstrap es el entorno d etrabajo HTML, CSS y JS más popular para desarrollos adaptables. Los mejores proyectos para móviles en la web.</p>
+        <p class="centrado">
+            <!-- Boton Descargar -->
+          <a class="boton" href="#" tittle="Descargar Bootstrap">Descargar Bootstrap </a>  
+        </p>
+        <p class="centrado" id="malvaclaro">Actualizada v3.3.7</p>
+        <!-- Formulario -->
+        <div class="centradoimagen">
+            <form method="get" action="" name="formulario1">
+                <label for="usuario">usuario:</label><input type="text" id="usuario" name="usuario"alt="indique su usuario" autofocus required>
+                <label for="contrasena">contraseña:</label><input type="password" id="contrasena" name="contrasena" alt="indique su contraseña" required>
+                <label for="email">email:</label><input type="email" id="email" name="email" alt="indique su email" placeholder="email@server.com" required>
+                <span id="centrar">
+                    <input class="boton" type="submit" value="Enviar" alt="Enviar formulario" tittle="Enviar">
+                    <input class="boton" type="reset" value="Refrescar" alt="Borrar formulario" tittle="Refrescar">
+                </span>
+            </form>
+        </div>
+    </div>
+    
+<!-- pie de pagina -->
+<footer class="pie">
+    Diseñado y construido con todo el amor del mundo por <span class="blanco">@mdo</span> y <span class="blanco">@fat</span>. Mantenimiento por <span class="blanco">equipo core</span> con la ayuda de <span class="blanco">vuestras aportaciones</span>.
+<br>
+    Código de licencia<span class="blanco">MIT</span>, documentos <span class="blanco">CC para 3.0</span>.
+   
+</footer>
+</body>
+</html>

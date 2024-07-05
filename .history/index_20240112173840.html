@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, formulario, practica">
+    <meta name="description" content="Evaluacion práctica">
+    <meta name="author" content="Alexandra Ferrera Arenas">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Evaluación práctica CSS</title>
+    <!-- Enlace a estilo.css -->
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--Esta capa pertenece a la barra azul superior que tiene un enlace-->
+    <div id="azul">
+        <a class="linkazul" href="index.html">
+            Bootstrap 4 is here!
+        </a>
+    </div>
+    
+    <nav class="menu">
+        <div id="menucentrado">
+            <div id="menugrueso">
+                <a class="hovergris" href="#"><span id="compuesta">HTML5&nbsp;&nbsp;</span></a>
+                <a class="hovergris" href="#">&nbsp;CSS&nbsp;</a>
+                <a class="hovergris" href="#">&nbsp;JavaScript6&nbsp;</a>
+            </div>    
+            <div id="menuderecho">
+                <a class="hovergris" href="#">&nbsp;Cuestionarios&nbsp;</a>
+                <a class="hovergris" href="#">&nbsp;Examenes&nbsp;</a>
+                <a class="hovergris" href="#">&nbsp;Prácticas&nbsp;</a>
+            </div>
+        </div>
+    </nav>
+    <div id="malva">
+        <span class="menu">
+            <img class="centradoB" src="IMAGENES/imagen_adobe.png" alt="imagen adobe">
+        </span>
+        <p class="centrado" id="grande">
+        Bootstrap es el entorno d etrabajo HTML, CSS y JS más popular para desarrollos adaptables. Los mejores proyectos para móviles en la web.</p>
+        <p class="centrado">
+          <a class="boton" href="#">Descargar Bootstrap </a>  
+        </p>
+       
+        <p class="centrado" id="malvaclaro">Actualizada v3.3.7</p>
+        
+        <div class="centradoimagen">
+            <form method="get" action="" name="formulario1">
+                <label for="usuario">usuario:</label><input type="text" id="usuario" name="usuario"alt="indique su usuario" autofocus required><br>
+                <label for="contrasena">contraseña:</label><input type="password" id="contrasena" name="contrasena" alt="indique su contraseña" required><br>
+                <label for="email">email:</label><input type="email" id="email" name="email" alt="indique su email" placeholder="email@server.com" required><br>
+                <span>
+                    <input class="boton" type="submit" value="Enviar" alt="Enviar formulario">
+                    <input class="boton" type="reset" value="Refrescar" alt="Borrar formulario">
+                </span>
+            </form>
+        </div>
+    </div>
+    
+
+<div class="pie">
+    Designed and built with all the love in the world by <span class="blanco">@mdo</span> and <span class="blanco">@fat</span>. Maintained by the <span class="blanco">core team</span> with the help of <span class="blanco">our contributors</span>.
+<br>
+    Code licensed <span class="blanco">MIT</span>, docs <span class="blanco">CC BY 3.0</span>.
+   
+</div>
+</body>
+</html>
