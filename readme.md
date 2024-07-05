@@ -5,7 +5,7 @@ En el proceso de aprendizaje haciamos varios ejercicios prácticos para aprender
 
 ## Captura de Pantalla
 
-![Captura](imagenes/captura.jpg)
+![Captura](IMAGENES/captura.jpg)
 
 ## Ver ejemplo en vivo
 [https://github.com/iSaan86/EV_Practica_Replica2](https://github.com/iSaan86/EV_Practica_Replica2)
